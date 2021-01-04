@@ -1,0 +1,208 @@
+/* XL Device :1200px. */
+@media (min-width: 992px) {
+  .history-body>.container {
+    max-width: 800px;
+  }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .profile-banner {
+    height: 300px;
+  }
+
+  .profile-pic-input-wrap,
+  .company-logo-input-wrap {
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .profile-banner {
+    height: 200px;
+  }
+
+  .edit-profile-btn {
+    align-self: flex-start;
+    padding: 7px 10px;
+    border-radius: 50%;
+  }
+
+  .edit-profile-btn i {
+    font-size: 13px;
+    margin-right: 0;
+  }
+
+  .edit-profile-btn span {
+    display: none;
+  }
+
+  .pro-pic-slider {
+    width: 145px;
+    height: 145px;
+    margin-top: -105px;
+  }
+
+  .single-pro-pic {
+    height: 136px;
+    width: 136px;
+  }
+
+  .profile-intro-content h3 {
+    font-size: 24px;
+  }
+
+  .profile-intro-content span {
+    font-size: 16px;
+  }
+
+  .profile-body {
+    padding: 60px 0;
+  }
+
+  .profile-details-box .single-info {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .profile-details-box h4 {
+    font-size: 19px;
+    margin-bottom: 25px;
+  }
+
+  .profile-details-box .single-info .info-title {
+    font-size: 15px;
+    width: unset;
+  }
+
+  .profile-details-box .single-info .info-detail {
+    font-size: 15px;
+  }
+
+  .social-profile span {
+    font-size: 15px;
+  }
+
+  .company-single-logo img {
+    max-height: 80px;
+  }
+
+  .profile-pic-input-wrap,
+  .company-logo-input-wrap {
+    margin-bottom: 30px;
+  }
+
+  .company-logo-slider.no-slider .company-single-logo img {
+    max-height: 100px;
+  }
+
+  .pro-pic-select.active .single-pro-pic::after {
+    font-size: 50px;
+  }
+
+  .history-header h3 {
+    font-size: 27px;
+  }
+
+  .history-header p {
+    font-size: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .history-title {
+    font-size: 18px;
+  }
+
+  .history-cat,
+  .history-time,
+  .history-down {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+
+
+}
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+  .topbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .top-contact {
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+
+  .top-contact span {
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .top-social a:first-child {
+    margin-left: 0;
+  }
+
+  .navbar-toggler span {
+    color: #fff;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .navbar-nav .nav-link {
+    display: inline-block;
+  }
+
+  .brochure {
+    padding: 30px 0;
+  }
+
+  .single-category a {
+    padding: 12px;
+  }
+
+  .history-item-wrapper {
+    padding-left: 20px;
+  }
+
+  .history-item {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .history-item::before {
+    left: -28px;
+  }
+
+  .history-item::after {
+    left: -23px;
+  }
+
+  .history-img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+
+
+}
+
+/* SM Device :576px. */
+@media (min-width: 576px) and (max-width: 767px) {
+  .company-single-logo img {
+    max-height: 80px;
+  }
+}
